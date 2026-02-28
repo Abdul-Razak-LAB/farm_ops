@@ -1,0 +1,6 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/farms/[farmId]/invites/route": "app/api/farms/[farmId]/invites/route.js",
+  "/api/integrations/status/route": "app/api/integrations/status/route.js",
+  "/page": "app/page.js"
+}

@@ -1,0 +1,3 @@
+{
+  "/api/farms/[farmId]/finance/budgets/route": "app/api/farms/[farmId]/finance/budgets/route.js"
+}

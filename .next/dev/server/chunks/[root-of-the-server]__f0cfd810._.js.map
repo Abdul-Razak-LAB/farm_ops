@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 40, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/USER/Desktop/farm_hands/src/app/api/push/public-key/route.ts"],"sourcesContent":["import { NextResponse } from 'next/server';\r\n\r\nexport async function GET() {\r\n  const publicKey = process.env.VAPID_PUBLIC_KEY;\r\n\r\n  if (!publicKey) {\r\n    return NextResponse.json(\r\n      {\r\n        success: false,\r\n        error: {\r\n          code: 'PUSH_UNAVAILABLE',\r\n          message: 'Push notifications are currently unavailable.',\r\n        },\r\n      },\r\n      { status: 503 },\r\n    );\r\n  }\r\n\r\n  return NextResponse.json({\r\n    success: true,\r\n    data: { publicKey },\r\n  });\r\n}\r\n"],"names":["GET","publicKey","process","env","VAPID_PUBLIC_KEY","json","success","error","code","message","status","data"],"mappings":";;;;AAAA;;AAEO,eAAeA;IACpB,MAAMC,YAAYC,QAAQC,GAAG,CAACC,gBAAgB;IAE9C,IAAI,CAACH,WAAW;QACd,OAAO,gJAAY,CAACI,IAAI,CACtB;YACEC,SAAS;YACTC,OAAO;gBACLC,MAAM;gBACNC,SAAS;YACX;QACF,GACA;YAAEC,QAAQ;QAAI;IAElB;IAEA,OAAO,gJAAY,CAACL,IAAI,CAAC;QACvBC,SAAS;QACTK,MAAM;YAAEV;QAAU;IACpB;AACF"}}]
+}

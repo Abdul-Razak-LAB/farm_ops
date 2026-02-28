@@ -1,0 +1,3 @@
+{
+  "/api/farms/[farmId]/weekly-digest/route": "app/api/farms/[farmId]/weekly-digest/route.js"
+}

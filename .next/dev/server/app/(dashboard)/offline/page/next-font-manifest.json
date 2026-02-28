@@ -1,0 +1,11 @@
+{
+  "pages": {},
+  "app": {
+    "[project]/src/app/(dashboard)/offline/page": [
+      "static/media/caa3a2e1cccd8315-s.p.c328c21a.woff2",
+      "static/media/797e433ab948586e-s.p.b1da4214.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pagesUsingSizeAdjust": false
+}

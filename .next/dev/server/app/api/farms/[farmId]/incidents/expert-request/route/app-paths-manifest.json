@@ -1,0 +1,3 @@
+{
+  "/api/farms/[farmId]/incidents/expert-request/route": "app/api/farms/[farmId]/incidents/expert-request/route.js"
+}
