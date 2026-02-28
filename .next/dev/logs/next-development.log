@@ -1,0 +1,7 @@
+{"timestamp":"00:00:40.379","source":"Server","level":"WARN","message":"⚠ Slow filesystem detected. The benchmark took 2913ms. If C:\\Users\\USER\\Desktop\\farm_hands\\.next\\dev is a network drive, consider moving it to a local folder.\nSee more: https://nextjs.org/docs/app/guides/local-development"}
+{"timestamp":"00:00:51.751","source":"Server","level":"LOG","message":"○ Compiling middleware ..."}
+{"timestamp":"00:01:15.291","source":"Server","level":"WARN","message":"⚠ The \"middleware\" file convention is deprecated. Please use \"proxy\" instead. Learn more: https://nextjs.org/docs/messages/middleware-to-proxy"}
+{"timestamp":"00:01:19.649","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:01:22.691","source":"Server","level":"LOG","message":"○ Compiling / ..."}
+{"timestamp":"00:01:52.395","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:01:55.694","source":"Server","level":"LOG","message":"○ Compiling /api/integrations/status ..."}
